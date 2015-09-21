@@ -1,0 +1,6 @@
+private ["_bomb","_pos"];
+
+_bomb = _this select 0;
+_pos = getpos _bomb;
+
+_crater = "FIR_bombcrater_2000lb" createvehicle _pos;
