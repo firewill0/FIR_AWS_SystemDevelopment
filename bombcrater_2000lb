@@ -1,8 +1,0 @@
-/*create bomb crater for 2000lb bomb, gbu-31 and gbu-10*/
-
-private ["_bomb","_pos"];
-
-_bomb = _this select 0;
-_pos = getpos _bomb;
-
-_crater = "FIR_bombcrater_2000lb" createvehicle _pos;
