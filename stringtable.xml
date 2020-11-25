@@ -1,0 +1,398 @@
+﻿// Stringtable for FIR AWS
+//contributors :
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="FIR_AWS">
+	<Package name="WeaponInfo">
+		<Container name="Rockets">
+			<Key ID="str_FIR_M151_HE">
+				<Original>The M151 HE is a high explosive warheads of the 2.75-inch Hydra70 rocket. It is effective for vehicles and infantry.</Original>
+				<English>The M151 HE is a high explosive warheads of the 2.75-inch Hydra70 rocket. It is effective for vehicles and infantry.</English>
+				<Korean>M151 HE는 2.75인치 히드라70 로켓의 고폭 탄두입니다. 차량과 보병에 효과적입니다.</Korean>
+				<Japanese>M151HEは,2.75インチのヒドラ70ロケットの高爆弾頭です。 車と歩兵に効果的です。</Japanese>
+			</Key>
+			<Key ID="str_FIR_M229_HE">
+				<Original>The M229 HE is a high explosive warheads of the 2.75-inch Hydra70 rocket. Increases in destructive power due to warheads longer than M151. It is effective for vehicles and infantry.</Original>
+				<English>The M229 HE is a high explosive warheads of the 2.75-inch Hydra70 rocket. Increases in destructive power due to warheads longer than M151. It is effective for vehicles and infantry.</English>
+				<Korean>M229 HE는 2.75인치 히드라70 로켓의 고폭 탄두입니다. M151보다 긴 탄두로 인해 파괴력이 증가하였습니다. 차량과 보병에 효과적입니다.</Korean>
+				<Japanese>M229HEは,2.75インチのヒドラ70ロケットの高爆弾頭です。 M151より長い弾頭によって破壊力が増加しました。 車と歩兵に効果的です。</Japanese>
+			</Key>		
+			<Key ID="str_FIR_M247_HEAT">
+				<Original>The M247 HEAT is a high-explosive anti-tank warhead of the 2.75-inch Hydra70 rocket. It is effective for vehicles and armored vehicles.</Original>
+				<English>The M247 HEAT is a high-explosive anti-tank warhead of the 2.75-inch Hydra70 rocket. It is effective for vehicles and armored vehicles.</English>
+				<Korean>M247 HEAT는 2.75인치 히드라70 로켓의 대전차고폭탄두입니다. 차량과 장갑차에 효과적입니다.</Korean>
+				<Japanese>M247HEATは2.75インチのヒドラ70ロケットの対戦車榴弾です。 車と装甲車に効果的です。</Japanese>
+			</Key>				
+			<Key ID="str_FIR_M156_WP">
+				<Original>The M156 WP is a White-phosphorus munition of the 2.75-inch Hydra70 rocket. used for target marking and incendiary purposes.</Original>
+				<English>The M156 WP is a White-phosphorus munition of the 2.75-inch Hydra70 rocket. used for target marking and incendiary purposes.</English>
+				<Korean>M156 WP는 2.75인치 히드라70 로켓의 백린 연막탄입니다. 표적 지시 및 소이 목적으로 사용합니다.</Korean>
+				<Japanese>M156WPは,2.75インチヒドラ70ロケットの白燐煙幕弾です。 標的指示および焼夷目的で使用します。</Japanese>
+			</Key>				
+			<Key ID="str_FIR_M257_FLARE">
+				<Original>It's a flare that's used as a warhead for the Hydra 70 rocket. Used to illuminate the combat area during night operations.</Original>
+				<English>It's a flare that's used as a warhead for the Hydra 70 rocket. Used to illuminate the combat area during night operations.</English>
+				<Korean>히드라 70 로켓의 탄두로 사용되는 조명탄입니다. 야간 작전때 전투 지역을 밝히는데 사용합니다.</Korean>
+				<Japanese>ヒドラ70ロケットの弾頭として使用される照明弾です。 夜間の作戦時に戦闘地域を明らかにすることに使います。</Japanese>
+			</Key>						
+		</Container>
+		<Container name="Bombs">
+			<Key ID="str_FIR_Mk82_GP">
+				<Original>un-guided bomb / it's un-guided dumb bomb. the word 'dumb' means 'dangerous' to both our soldiers and enemies.</Original>
+				<English>un-guided bomb / it's un-guided dumb bomb. the word 'dumb' means 'dangerous' to both our soldiers and enemies.</English>
+				<Korean>무유도 폭탄 / 무유도 멍텅구리 폭탄입니다. 멍텅구리라는 말은, 아군이나 적에게나 모두 위험하다는 뜻이기도 합니다.</Korean>
+				<Japanese>馬鹿爆弾です。 馬鹿という言葉は,味方や敵にとっても危険だという意味でもあります。</Japanese>
+			</Key>	
+			<Key ID="str_FIR_Mk83_GP">
+				<Original>1000lbs un-guided bomb / it's un-guided dumb bomb. the word 'dumb' means 'dangerous' to both our soldiers and enemies.</Original>
+				<English>1000lbs un-guided bomb / it's un-guided dumb bomb. the word 'dumb' means 'dangerous' to both our soldiers and enemies.</English>
+				<Korean>1000파운드 무유도 폭탄 / 무유도 멍텅구리 폭탄입니다. 멍텅구리라는 말은, 아군이나 적에게나 모두 위험하다는 뜻이기도 합니다.</Korean>
+				<Japanese>1000ポンドの馬鹿爆弾です。 馬鹿という言葉は,味方や敵にとっても危険だという意味でもあります。</Japanese>
+			</Key>		
+			<Key ID="str_FIR_Mk84_GP">
+				<Original>2000lbs un-guided bomb / it's un-guided dumb bomb. the word 'dumb' means 'dangerous' to both our soldiers and enemies.</Original>
+				<English>2000lbs un-guided bomb / it's un-guided dumb bomb. the word 'dumb' means 'dangerous' to both our soldiers and enemies.</English>
+				<Korean>2000파운드 무유도 폭탄 / 무유도 멍텅구리 폭탄입니다. 멍텅구리라는 말은, 아군이나 적에게나 모두 위험하다는 뜻이기도 합니다.</Korean>
+				<Japanese>2000ポンドの馬鹿爆弾です。 馬鹿という言葉は,味方や敵にとっても危険だという意味でもあります。</Japanese>
+			</Key>					
+			<Key ID="str_FIR_BLU109">
+				<Original>Bunker buster warhead / This bomb can give eternal rest to an enemy who playing a card game when they hide in bunker or building.</Original>
+				<English>Bunker buster warhead / This bomb can give eternal rest to an enemy who playing a card game when they hide in bunker or building.</English>
+				<Korean>벙커버스터 탄두 / 벙커나 건물에 숨어서 카드게임을 하는 적에게 영원한 안식을 줄 수 있는 폭탄입니다. </Korean>
+				<Japanese>バンカーや建物に隠れてカードゲームをする敵軍に永遠な安息を与える爆弾です</Japanese>
+			</Key>		
+			<Key ID="str_FIR_SFW">
+				<Original>No, I'm from Bolt-Tek! Can I have time to explain the EFP?</Original>
+				<English>No, I'm from Bolt-Tek! Can I have time to explain the EFP?</English>
+				<Korean>아니요, 저는 볼트-텍에서 왔습니다! EFP에 관해서 설명할 시간을 가질 수 있을까요?</Korean>
+				<Japanese>いいえ,私はボルト-テクから来ました! EFPについて説明する時間を持てますか。</Japanese>
+			</Key>		
+			<Key ID="str_FIR_GBU10">
+				<Original>2000lbs laser guided bomb / CAUTION-Not a cat toys.</Original>
+				<English>2000lbs laser guided bomb / CAUTION-Not a cat toys.</English>
+				<Korean>2000파운드 레이저 유도 폭탄 / 주의-고양이용 장난감이 아님.</Korean>
+				<Japanese>2000ポンドのレーザー誘導爆弾 / 注意-猫のおもちゃではない。</Japanese>
+			</Key>		
+			<Key ID="str_FIR_GBU12">
+				<Original>500lbs laser guided bomb / CAUTION-Not a cat toys.</Original>
+				<English>500lbs laser guided bomb / CAUTION-Not a cat toys.</English>
+				<Korean>500파운드 레이저 유도 폭탄 / 주의-고양이용 장난감이 아님.</Korean>
+				<Japanese>500ポンドのレーザー誘導爆弾 / 注意-猫のおもちゃではない。</Japanese>
+			</Key>		
+			<Key ID="str_FIR_GBU16">
+				<Original>1000lbs laser guided bomb / CAUTION-Not a cat toys.</Original>
+				<English>1000lbs laser guided bomb / CAUTION-Not a cat toys.</English>
+				<Korean>1000파운드 레이저 유도 폭탄 / 주의-고양이용 장난감이 아님.</Korean>
+				<Japanese>1000ポンドのレーザー誘導爆弾 / 注意-猫のおもちゃではない。</Japanese>
+			</Key>			
+			<Key ID="str_FIR_GBU38">
+				<Original>500lbs GPS Guided Bomb / 30 Minutes delivery guaranteed. Free if delivery is late.</Original>
+				<English>500lbs GPS Guided Bomb / 30 Minutes delivery guaranteed. Free if delivery is late.</English>
+				<Korean>500파운드 GPS유도 폭탄 / 30분 이내 배달 보장. 늦을시엔 공짜.</Korean>
+				<Japanese>500ポンドGPS誘導爆弾/30分以内の配達保障。 配達が遅れる時には無料です。</Japanese>
+			</Key>			
+			<Key ID="str_FIR_GBU32">
+				<Original>1000lbs GPS Guided Bomb / 30 Minutes delivery guaranteed. Free if delivery is late.</Original>
+				<English>1000lbs GPS Guided Bomb / 30 Minutes delivery guaranteed. Free if delivery is late.</English>
+				<Korean>1000파운드 GPS유도 폭탄 / 30분 이내 배달 보장. 늦을시엔 공짜.</Korean>
+				<Japanese>1000ポンドGPS誘導爆弾/30分以内の配達保障。 配達が遅れる時には無料です。</Japanese>
+			</Key>			
+			<Key ID="str_FIR_GBU55">
+				<Original>1000lbs GPS + Laser guided Bomb / 30 Minutes delivery guaranteed. Free if delivery is late.</Original>
+				<English>1000lbs GPS + Laser guided Bomb / 30 Minutes delivery guaranteed. Free if delivery is late.</English>
+				<Korean>1000파운드 GPS/레이저 유도 폭탄 / 30분 이내 배달 보장. 늦을시엔 공짜.</Korean>
+				<Japanese>1000ポンドGPS誘導爆弾/30分以内の配達保障。 配達が遅れる時には無料です。</Japanese>
+			</Key>				
+			<Key ID="str_FIR_GBU31">
+				<Original>2000lbs GPS Guided Bomb / 30 Minutes delivery guaranteed. Free if delivery is late.</Original>
+				<English>2000lbs GPS Guided Bomb / 30 Minutes delivery guaranteed. Free if delivery is late.</English>
+				<Korean>2000파운드 GPS유도 폭탄 / 30분 이내 배달 보장. 늦을시엔 공짜.</Korean>
+				<Japanese>2000ポンドGPS誘導爆弾/30分以内の配達保障。 配達が遅れる時には無料です。</Japanese>
+			</Key>					
+		</Container>		
+		<Container name="Missile">
+			<Key ID="str_FIR_AIM9">
+				<Original>short-range, IR guided, Anti-air missile / the standard short-range air-to-air missile in Western countries. Don't laugh at the word 'short-distance'. You can die from rattlesnake's poison teeth.</Original>
+				<English>short-range, IR guided, Anti-air missile / the standard short-range air-to-air missile in Western countries. Don't laugh at the word 'short-distance'. You can die from rattlesnake's poison teeth.</English>
+				<Korean>단거리, IR유도, 공대공 미사일 / 서방 국가들의 표준 단거리 공대공 미사일입니다. 단거리란 말에 비웃지 마십시오. 방울뱀의 독니에 죽을수 있습니다.</Korean>
+				<Japanese>短距離, IR , 空対空ミサイル / 西側国家の標準短距離空対空ミサイルです。 "短距離"という言葉に笑わないで下さい。 ガラガラヘビの毒牙に死ぬこともできます。</Japanese>
+			</Key>			
+			<Key ID="str_FIR_AGM65_IR">
+				<Original>IR Guided / air-to-surface Missile / Excuse me, I'd like to discuss what's inside this tank.</Original>
+				<English>IR Guided / air-to-surface Missile / Excuse me, I'd like to discuss what's inside this tank.</English>
+				<Korean>IR유도 / 공대지 미사일 / 실례합니다, 이 탱크 안에 뭐가 들어있는지 논의하고 싶은데요.</Korean>
+				<Japanese>IR / 空対地ミサイル / すみません。このタンクの中に何が入っているのか話したいですが。</Japanese>
+			</Key>					
+			<Key ID="str_FIR_AGM84H">
+				<Original>GPS , IR Guided - Command Guidance Supported / RC airplane for adult equipped with self-destruct and Selfie function.</Original>
+				<English>GPS , IR Guided - Command Guidance Supported / RC airplane for adult equipped with self-destruct and Selfie function.</English>
+				<Korean>GPS, IR 유도 - 지령 유도 지원 / 성인용 RC 비행기. 자폭 기능 및 셀카 기능 탑재.</Korean>
+				<Japanese>GPS,IR - 指令誘導 可能 / 成人用RC飛行機。 自爆機能及び自撮り機能搭載。</Japanese>
+			</Key>			
+			<Key ID="str_FIR_AIM7">
+				<Original>mid-range semi-active radar guided air to air missile / as they say in my house, there's a thin line between bravery and stupidity.</Original>
+				<English>mid-range semi-active radar guided air to air missile / as they say in my house, there's a thin line between bravery and stupidity. </English>
+				<Korean>중거리 반능동 레이더 유도 공대공 미사일 / 누군가가 말하기를, 용감함과 멍청함 사이에는 큰 차이가 없다더군.</Korean>
+				<Japanese>中射程空対空ミサイル / 誰かが言うには,勇敢さと間抜けさには大差ないそうだ。</Japanese>
+			</Key>					
+			<Key ID="str_FIR_AIM54">
+				<Original>long-range radar guided air to air missile / There was an enemy fighter...and gone.</Original>
+				<English>long-range radar guided air to air missile / There was an enemy fighter...and gone.</English>
+				<Korean>장거리 레이더 유도 공대공 미사일 / 적군 전투기가 있었는데요.. 없었습니다.</Korean>
+				<Japanese>長距離レーダー誘導空対空ミサイル / 敵軍の戦闘機がありました。そしてなくなりました。</Japanese>
+			</Key>				
+		</Container>			
+	</Package>
+	<Package name="AWS_GUI">
+		<Container name="AMS">
+			<Key ID="str_FIR_ADES_Setting">
+				<Original>Open the aircraft customize menu.</Original>
+				<English>Open the aircraft customize menu.</English>
+				<Korean>항공기 커스터마이즈 메뉴를 엽니다.</Korean>
+			</Key>		
+			<Key ID="str_FIR_PRESET_SELECT">
+				<Original>Select preset</Original>
+				<English>Select preset</English>
+				<Korean>프리셋 선택</Korean>
+			</Key>				
+			<Key ID="str_FIR_REPAIR_BTN">
+				<Original>Repair this aircraft.</Original>
+				<English>Repair this aircraft.</English>
+				<Korean>이 항공기를 수리합니다.</Korean>
+			</Key>		
+			<Key ID="str_FIR_REFUEL_BTN">
+				<Original>Refuel this aircraft.</Original>
+				<English>Refuel this aircraft.</English>
+				<Korean>이 항공기의 연료를 보급합니다.</Korean>
+			</Key>		
+			<Key ID="str_FIR_APPLY_BTN">
+				<Original>Apply the current setting.</Original>
+				<English>Apply the current setting.</English>
+				<Korean>현재 설정을 적용합니다.</Korean>
+			</Key>				
+			<Key ID="str_FIR_CLOSE_BTN">
+				<Original>Close the AMS</Original>
+				<English>Close the AMS</English>
+				<Korean>AMS를 닫습니다.</Korean>
+			</Key>				
+			<Key ID="str_FIR_PRESET_ADD_BTN">
+				<Original>Add a new preset.</Original>
+				<English>Add a new preset.</English>
+				<Korean>새 프리셋을 추가합니다.</Korean>
+			</Key>		
+			<Key ID="str_FIR_PRESET_UPDATE_BTN">
+				<Original>Update the selected preset.</Original>
+				<English>Update the selected preset.</English>
+				<Korean>선택한 프리셋을 갱신합니다.</Korean>
+			</Key>			
+			<Key ID="str_FIR_PRESET_REMOVE_BTN">
+				<Original>Remove the selected preset.</Original>
+				<English>Remove the selected preset.</English>
+				<Korean>선택한 프리셋을 삭제합니다.</Korean>
+			</Key>			
+			<Key ID="str_FIR_PRESET_APPLY_BTN">
+				<Original>Apply the selected preset.</Original>
+				<English>Apply the selected preset.</English>
+				<Korean>선택한 프리셋을 적용합니다.</Korean>
+			</Key>					
+			<Key ID="str_FIR_WSO_DESC">
+				<Original>Each checkbox determines which weapons the WSO can use.</Original>
+				<English>Each checkbox determines which weapons the WSO can use.</English>
+				<Korean>각 체크박스는 WSO가 사용할 수 있는 무기를 결정합니다.</Korean>
+			</Key>
+			<Key ID="str_FIR_EWO_DESC">
+				<Original>Each checkbox determines which weapons the EWO can use.</Original>
+				<English>Each checkbox determines which weapons the EWO can use.</English>
+				<Korean>각 체크박스는 EWO가 사용할 수 있는 무기를 결정합니다.</Korean>
+			</Key>						
+		</Container>
+	</Package>	
+	<Package name="ITGT_GUI">
+		<Container name="ITGT">
+			<Key ID="str_FIR_ITGT_GUI_HINT_DGN">
+				<Original>Designate the Target Location and send to the Memory</Original>
+				<English>Designate the Target Location and send to the Memory</English>
+				<Korean>Designate the Target Location and send to the Memory</Korean>
+			</Key>			
+			<Key ID="str_FIR_ITGT_GUI_HINT_DES">
+				<Original>Select / Send the GPS Coordinate To FCS</Original>
+				<English>Select / Send the GPS Coordinate To FCS</English>
+				<Korean>Select / Send the GPS Coordinate To FCS</Korean>
+			</Key>				
+			<Key ID="str_FIR_ITGT_GUI_HINT_EDIT">
+				<Original>Edit pylon setting</Original>
+				<English>Edit pylon setting</English>
+				<Korean>Edit pylon setting</Korean>
+			</Key>			
+			<Key ID="str_FIR_ITGT_GUI_HINT_CLR">
+				<Original>Clear targeting data from FCS</Original>
+				<English>Clear targeting data from FCS</English>
+				<Korean>Clear targeting data from FCS</Korean>
+			</Key>				
+			<Key ID="str_FIR_ITGT_GUI_HINT_DEL">
+				<Original>Delete Coordinates from Memory</Original>
+				<English>Delete Coordinates from Memory</English>
+				<Korean>Delete Coordinates from Memory</Korean>
+			</Key>			
+			<Key ID="str_FIR_ITGT_GUI_HINT_EXIT">
+				<Original>EXIT</Original>
+				<English>EXIT</English>
+				<Korean>나가기</Korean>
+			</Key>	
+			<Key ID="str_FIR_ITGT_GUI_HINT_ENTER">
+				<Original>Enter coordinates</Original>
+				<English>Enter coordinates</English>
+				<Korean>Enter coordinates</Korean>
+			</Key>				
+			<Key ID="str_FIR_ITGT_GUI_HINT_GRID">
+				<Original>Check the grid</Original>
+				<English>Check the grid</English>
+				<Korean>Check the grid</Korean>
+			</Key>	
+			<Key ID="str_FIR_ITGT_GUI_HINT_POI">
+				<Original>get the coordinates on click position</Original>
+				<English>get the coordinates on click position</English>
+				<Korean>get the coordinates on click position</Korean>
+			</Key>			
+			<Key ID="str_FIR_ITGT_GUI_HINT_MAP">
+				<Original>map</Original>
+				<English>map</English>
+				<Korean>map</Korean>
+			</Key>		
+			<Key ID="str_FIR_ITGT_GUI_HINT_LIST">
+				<Original>list</Original>
+				<English>list</English>
+				<Korean>list</Korean>
+			</Key>		
+			<Key ID="str_FIR_ITGT_GUI_HINT_MKR">
+				<Original>marker</Original>
+				<English>marker</English>
+				<Korean>marker</Korean>
+			</Key>			
+			<Key ID="str_FIR_ITGT_GUI_HINT_WIP">
+				<Original>UNABLED - WORK IN PROGRESS</Original>
+				<English>UNABLED - WORK IN PROGRESS</English>
+				<Korean>UNABLED - WORK IN PROGRESS</Korean>
+			</Key>	
+			<Key ID="str_FIR_ITGT_GUI_HINT_EDIT_APPLY">
+				<Original>apply</Original>
+				<English>apply</English>
+				<Korean>apply</Korean>
+			</Key>				
+			<Key ID="str_FIR_ITGT_AIRCRAFT_WARN">
+				<Original>You Must get in the Aircraft!</Original>
+				<English>You Must get in the Aircraft!</English>
+				<Korean>항공기에 탑승하셔야 합니다!</Korean>
+			</Key>		
+			<Key ID="str_FIR_ITGT_NOT_INIT">
+				<Original>CAUTION : I-TGT NOT INITIALIZED.</Original>
+				<English>CAUTION : I-TGT NOT INITIALIZED.</English>
+				<Korean>주의 : I-TGT 초기화 되지 않음.</Korean>
+			</Key>				
+			<Key ID="str_FIR_ITGT_NOT_MAP">
+				<Original>please select MAP mode.</Original>
+				<English>please select MAP mode.</English>
+				<Korean>지도 모드를 선택하여 주십시오.</Korean>
+			</Key>			
+			<Key ID="str_FIR_ITGT_NOT_LIST">
+				<Original>please select LIST mode.</Original>
+				<English>please select LIST mode.</English>
+				<Korean>목록 모드를 선택하여 주십시오.</Korean>
+			</Key>						
+			<Key ID="str_FIR_ITGT_DGN_RUNNING">
+				<Original>SYSTEM : I-TGT System is running. click the map for target location.</Original>
+				<English>SYSTEM : I-TGT System is running. click the map for target location.</English>
+				<Korean>시스템 : I-TGT 시스템 작동중. 맵에 목표 지점을 클릭하십시오.</Korean>
+			</Key>	
+			<Key ID="str_FIR_ITGT_DGN_CONFIRMED">
+				<Original>SYSTEM : Target location confirmed. converting to coordinates..</Original>
+				<English>SYSTEM : Target location confirmed. converting to coordinates..</English>
+				<Korean>시스템 : 목표 지점 확인. 좌표 변환중..</Korean>
+			</Key>			
+			<Key ID="str_FIR_ITGT_DGN_UPDATED">
+				<Original>SYSTEM : Target list has been updated. / %1</Original>
+				<English>SYSTEM : Target list has been updated. / %1</English>
+				<Korean>시스템 : 목표 목록 갱신 완료. / %1</Korean>
+			</Key>		
+			<Key ID="str_FIR_ITGT_DES_SELECT_CHECK">
+				<Original>Please select pylon or tgt.</Original>
+				<English>Please select pylon or tgt.</English>
+				<Korean>파일런 또는 목표를 선택하여 주십시오.</Korean>
+			</Key>			
+			<Key ID="str_FIR_ITGT_DES_LOCKED">
+				<Original>SYSTEM : TARGET LOCKED - PYLON : %1 / TGT : %2</Original>
+				<English>SYSTEM : TARGET LOCKED - PYLON : %1 / TGT : %2</English>
+				<Korean>시스템 : 목표 지정 - 파일런 : %1 / 목표 : %2</Korean>
+			</Key>		
+			<Key ID="str_FIR_ITGT_DEL_DONE">
+				<Original>data deleted</Original>
+				<English>data deleted</English>
+				<Korean>데이터 삭제됨</Korean>
+			</Key>				
+			<Key ID="str_FIR_ITGT_DEL_FAIL">
+				<Original>Unable to delete data. some pylon using this data. clear data in pylon first.</Original>
+				<English>Unable to delete data. some pylon using this data. clear data in pylon first.</English>
+				<Korean>데이터 삭제 실패. 일부 파일런이 이 데이터를 사용중입니다. 파일런에서 데이터를 먼저 제거하십시오.</Korean>
+			</Key>					
+			<Key ID="str_FIR_ITGT_CLR_SELECT_CHECK">
+				<Original>Please select pylon.</Original>
+				<English>Please select pylon.</English>
+				<Korean>파일런을 선택하여 주십시오.</Korean>
+			</Key>			
+			<Key ID="str_FIR_ITGT_CLR_MSG">
+				<Original>SYSTEM : removing target data from pylon</Original>
+				<English>SYSTEM : removing target data from pylon</English>
+				<Korean>시스템 : 파일런에서 목표 데이터를 제거중..</Korean>
+			</Key>		
+			<Key ID="str_FIR_ITGT_POI_NOT_TRACK">
+				<Original>SYSTEM : tracking mode not activated.</Original>
+				<English>SYSTEM : tracking mode not activated.</English>
+				<Korean>시스템 : 추적 모드가 활성화되지 않음.</Korean>
+			</Key>	
+			<Key ID="str_FIR_ITGT_POI_UPDATED">
+				<Original>SYSTEM : Target list has been updated. / %1</Original>
+				<English>SYSTEM : Target list has been updated. / %1</English>
+				<Korean>시스템 : 목표 목록 갱신 완료. / %1</Korean>
+			</Key>	
+			<Key ID="str_FIR_ITGT_PYLON_EDIT_SELECT_CHECK">
+				<Original>select mode to edit.</Original>
+				<English>select mode to edit.</English>
+				<Korean>편집할 모드를 선택하여 주십시오.</Korean>
+			</Key>		
+			<Key ID="str_FIR_ITGT_PYLON_EDIT_NUMBER_CHECK">
+				<Original>SYSTEM : please input the number.</Original>
+				<English>SYSTEM : please input the number.</English>
+				<Korean>시스템 : 숫자를 입력하여 주십시오.</Korean>
+			</Key>			
+			<Key ID="str_FIR_ITGT_PYLON_EDIT_UPDATE">
+				<Original>SYSTEM : MODE CHANGED - PYLON : %1 / MODE : %2</Original>
+				<English>SYSTEM : MODE CHANGED - PYLON : %1 / MODE : %2</English>
+				<Korean>시스템 : 모드 변경됨 - 파일런 : %1 / 모드 : %2</Korean>
+			</Key>	
+			<Key ID="str_FIR_ITGT_MKR_SELECT_CHECK">
+				<Original>select target in tgt list.</Original>
+				<English>select target in tgt list.</English>
+				<Korean>목표 목록에서 목표를 선택하여 주십시오.</Korean>
+			</Key>				
+			<Key ID="str_FIR_ITGT_MKR_GLOBAL">
+				<Original>switching to global marker.</Original>
+				<English>switching to global marker.</English>
+				<Korean>공용 마커로 변경됨.</Korean>
+			</Key>						
+			<Key ID="str_FIR_ITGT_MKR_LOCAL">
+				<Original>switching to local marker.</Original>
+				<English>switching to local marker.</English>
+				<Korean>전용 마커로 변경됨</Korean>
+			</Key>			
+			<Key ID="str_FIR_ITGT_GRID_MSG">
+				<Original>SYSTEM : click the map to coordinates information.</Original>
+				<English>SYSTEM : click the map to coordinates information.</English>
+				<Korean>시스템 : 좌표 정보를 확인하기 위해 맵을 클릭하여 주십시오.</Korean>
+			</Key>					
+			<Key ID="str_FIR_ITGT_GRID_INFO">
+				<Original>SYSTEM : COORDINATES INFO - %1</Original>
+				<English>SYSTEM : COORDINATES INFO - %1</English>
+				<Korean>시스템 : 좌표 정보 - %1</Korean>
+			</Key>					
+		</Container>
+	</Package>		
+</Project>
