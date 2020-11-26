@@ -1,4 +1,4 @@
-﻿// Stringtable for FIR AWS
+// Stringtable for FIR AWS
 //contributors : Firewill
 <?xml version="1.0" encoding="utf-8" ?>
 <Project name="FIR_AWS">
@@ -209,29 +209,29 @@
 	<Package name="ITGT_GUI">
 		<Container name="ITGT">
 			<Key ID="str_FIR_ITGT_GUI_HINT_DGN">
-				<Original>Designate the Target Location and send to the Memory</Original>
-				<English>Designate the Target Location and send to the Memory</English>
-				<Korean>Designate the Target Location and send to the Memory</Korean>
+				<Original>Designate the Target Location</Original>
+				<English>Designate the Target Location</English>
+				<Korean>목표 지점을 지정</Korean>
 			</Key>			
 			<Key ID="str_FIR_ITGT_GUI_HINT_DES">
-				<Original>Select / Send the GPS Coordinate To FCS</Original>
-				<English>Select / Send the GPS Coordinate To FCS</English>
-				<Korean>Select / Send the GPS Coordinate To FCS</Korean>
+				<Original>Send the target info to pylon</Original>
+				<English>Send the target info to pylon</English>
+				<Korean>목표 정보를 파일런에 전송</Korean>
 			</Key>				
 			<Key ID="str_FIR_ITGT_GUI_HINT_EDIT">
 				<Original>Edit pylon setting</Original>
 				<English>Edit pylon setting</English>
-				<Korean>Edit pylon setting</Korean>
+				<Korean>파일런 설정 편집</Korean>
 			</Key>			
 			<Key ID="str_FIR_ITGT_GUI_HINT_CLR">
-				<Original>Clear targeting data from FCS</Original>
-				<English>Clear targeting data from FCS</English>
-				<Korean>Clear targeting data from FCS</Korean>
+				<Original>Clear targeting data from pylon</Original>
+				<English>Clear targeting data from pylon</English>
+				<Korean>타게팅 정보 제거</Korean>
 			</Key>				
 			<Key ID="str_FIR_ITGT_GUI_HINT_DEL">
-				<Original>Delete Coordinates from Memory</Original>
-				<English>Delete Coordinates from Memory</English>
-				<Korean>Delete Coordinates from Memory</Korean>
+				<Original>Delete Coordinates</Original>
+				<English>Delete Coordinates</English>
+				<Korean>좌표 삭제</Korean>
 			</Key>			
 			<Key ID="str_FIR_ITGT_GUI_HINT_EXIT">
 				<Original>EXIT</Original>
@@ -241,42 +241,42 @@
 			<Key ID="str_FIR_ITGT_GUI_HINT_ENTER">
 				<Original>Enter coordinates</Original>
 				<English>Enter coordinates</English>
-				<Korean>Enter coordinates</Korean>
+				<Korean>좌표 입력</Korean>
 			</Key>				
 			<Key ID="str_FIR_ITGT_GUI_HINT_GRID">
 				<Original>Check the grid</Original>
 				<English>Check the grid</English>
-				<Korean>Check the grid</Korean>
+				<Korean>좌표 체크</Korean>
 			</Key>	
 			<Key ID="str_FIR_ITGT_GUI_HINT_POI">
-				<Original>get the coordinates on click position</Original>
-				<English>get the coordinates on click position</English>
-				<Korean>get the coordinates on click position</Korean>
+				<Original>get the target location from targeting camera view</Original>
+				<English>get the target location from targeting camera view</English>
+				<Korean>타게팅 카메라에서 보는 목표 지점을 획득</Korean>
 			</Key>			
 			<Key ID="str_FIR_ITGT_GUI_HINT_MAP">
 				<Original>map</Original>
 				<English>map</English>
-				<Korean>map</Korean>
+				<Korean>지도 모드</Korean>
 			</Key>		
 			<Key ID="str_FIR_ITGT_GUI_HINT_LIST">
 				<Original>list</Original>
 				<English>list</English>
-				<Korean>list</Korean>
+				<Korean>목록 모드</Korean>
 			</Key>		
 			<Key ID="str_FIR_ITGT_GUI_HINT_MKR">
 				<Original>marker</Original>
 				<English>marker</English>
-				<Korean>marker</Korean>
+				<Korean>마커 공용/전용 선택</Korean>
 			</Key>			
 			<Key ID="str_FIR_ITGT_GUI_HINT_WIP">
 				<Original>UNABLED - WORK IN PROGRESS</Original>
 				<English>UNABLED - WORK IN PROGRESS</English>
-				<Korean>UNABLED - WORK IN PROGRESS</Korean>
+				<Korean>사용 불가 - 현재 개발 중</Korean>
 			</Key>	
 			<Key ID="str_FIR_ITGT_GUI_HINT_EDIT_APPLY">
 				<Original>apply</Original>
 				<English>apply</English>
-				<Korean>apply</Korean>
+				<Korean>적용</Korean>
 			</Key>				
 			<Key ID="str_FIR_ITGT_AIRCRAFT_WARN">
 				<Original>You Must get in the Aircraft!</Original>
@@ -301,7 +301,7 @@
 			<Key ID="str_FIR_ITGT_DGN_RUNNING">
 				<Original>SYSTEM : I-TGT System is running. click the map for target location.</Original>
 				<English>SYSTEM : I-TGT System is running. click the map for target location.</English>
-				<Korean>시스템 : I-TGT 시스템 작동중. 맵에 목표 지점을 클릭하십시오.</Korean>
+				<Korean>시스템 : I-TGT 시스템 작동중. 맵을 클릭하여 목표 지점을 선택하십시오.</Korean>
 			</Key>	
 			<Key ID="str_FIR_ITGT_DGN_CONFIRMED">
 				<Original>SYSTEM : Target location confirmed. converting to coordinates..</Original>
@@ -376,12 +376,12 @@
 			<Key ID="str_FIR_ITGT_MKR_GLOBAL">
 				<Original>switching to global marker.</Original>
 				<English>switching to global marker.</English>
-				<Korean>공용 마커로 변경됨.</Korean>
+				<Korean>공용(Global) 마커로 변경됨.</Korean>
 			</Key>						
 			<Key ID="str_FIR_ITGT_MKR_LOCAL">
 				<Original>switching to local marker.</Original>
 				<English>switching to local marker.</English>
-				<Korean>전용 마커로 변경됨</Korean>
+				<Korean>전용(Local) 마커로 변경됨</Korean>
 			</Key>			
 			<Key ID="str_FIR_ITGT_GRID_MSG">
 				<Original>SYSTEM : click the map to coordinates information.</Original>
