@@ -1,5 +1,5 @@
 // Stringtable for FIR AWS
-//contributors : Firewill
+//contributors :
 <?xml version="1.0" encoding="utf-8" ?>
 <Project name="FIR_AWS">
 	<Package name="WeaponInfo">
@@ -392,7 +392,17 @@
 				<Original>SYSTEM : COORDINATES INFO - %1</Original>
 				<English>SYSTEM : COORDINATES INFO - %1</English>
 				<Korean>시스템 : 좌표 정보 - %1</Korean>
-			</Key>					
+			</Key>		
+			<Key ID="str_FIR_ITGT_ENTER_DIGITS_ERROR">
+				<Original>SYSTEM : CHECK COORDINATES AGAIN. 8 / 10 DIGITS SUPPORTED.</Original>
+				<English>SYSTEM : CHECK COORDINATES AGAIN. 8 / 10 DIGITS SUPPORTED.</English>
+				<Korean>시스템 : 좌표 재확인 필요. 8/10자리 숫자를 입력하십시오.</Korean>
+			</Key>		
+			<Key ID="str_FIR_ITGT_ENTER_CONVERT">
+				<Original>SYSTEM : Target Coordinates confirmed. converting data..</Original>
+				<English>SYSTEM : Target Coordinates confirmed. converting data..</English>
+				<Korean>시스템 : 좌표 확인 완료. 데이터 변환중..</Korean>
+			</Key>				
 		</Container>
 	</Package>		
 </Project>
