@@ -1,4 +1,4 @@
-// Stringtable for FIR AWS
+﻿// Stringtable for FIR AWS
 //contributors :
 <?xml version="1.0" encoding="utf-8" ?>
 <Project name="FIR_AWS">
@@ -144,6 +144,36 @@
 	</Package>
 	<Package name="AWS_GUI">
 		<Container name="AMS">
+			<Key ID="str_FIR_AMS_DISABLED_WARN">
+				<Original>AMS deactivated via AWS_AMS_Disable command.</Original>
+				<English>AMS deactivated via AWS_AMS_Disable command.</English>
+				<Korean>AMS가 AWS_AMS_Disable 명령어에 의해 비활성화되었습니다.</Korean>
+			</Key>	
+			<Key ID="str_FIR_AMS_DISABLED_NO_OBJECT">
+				<Original>No AMS supported object found within 160m.</Original>
+				<English>No AMS supported object found within 160m.</English>
+				<Korean>AMS를 사용가능케하는 지원 오브젝트가 160m이내에 찾을 수 없습니다.</Korean>
+			</Key>
+			<Key ID="str_FIR_AMS_DISABLED_NO_AIRCRAFT">
+				<Original>You Must get in the right aircraft!</Original>
+				<English>You Must get in the right aircraft!</English>
+				<Korean>AMS를 지원하는 항공기에 탑승하셔야 합니다!.</Korean>
+			</Key>		
+			<Key ID="str_FIR_AMS_CUSTOMPRESET_INSTALLED">
+				<Original>Custom preset data installed.(you can see this message only one time)</Original>
+				<English>Custom preset data installed.(you can see this message only one time)</English>
+				<Korean>커스텀 프리셋 데이터가 설치되었습니다.(최초 설치시에만 이 메시지가 보입니다.)</Korean>
+			</Key>		
+			<Key ID="str_FIR_AMS_WARN_WORKNIG">
+				<Original>AMS is already working.</Original>
+				<English>AMS is already working.</English>
+				<Korean>AMS가 이미 작동중입니다.</Korean>
+			</Key>	
+			<Key ID="str_FIR_AMS_START">
+				<Original>Starting the AMS.</Original>
+				<English>Starting the AMS.</English>
+				<Korean>AMS 실행 개시.</Korean>
+			</Key>			
 			<Key ID="str_FIR_ADES_Setting">
 				<Original>Open the aircraft customize menu.</Original>
 				<English>Open the aircraft customize menu.</English>
@@ -170,8 +200,8 @@
 				<Korean>현재 설정을 적용합니다.</Korean>
 			</Key>				
 			<Key ID="str_FIR_CLOSE_BTN">
-				<Original>Close the AMS</Original>
-				<English>Close the AMS</English>
+				<Original>Close the AMS.</Original>
+				<English>Close the AMS.</English>
 				<Korean>AMS를 닫습니다.</Korean>
 			</Key>				
 			<Key ID="str_FIR_PRESET_ADD_BTN">
@@ -203,6 +233,81 @@
 				<Original>Each checkbox determines which weapons the EWO can use.</Original>
 				<English>Each checkbox determines which weapons the EWO can use.</English>
 				<Korean>각 체크박스는 EWO가 사용할 수 있는 무기를 결정합니다.</Korean>
+			</Key>		
+			<Key ID="str_FIR_AMS_TOOLTIP_RESET">
+				<Original>Reset the hardpoint setting.</Original>
+				<English>Reset the hardpoint setting.</English>
+				<Korean>하드포인트 설정값을 초기화합니다.</Korean>
+			</Key>		
+			<Key ID="str_FIR_AMS_TOOLTIP_APPLY">
+				<Original>Apply a current hardpoint setting.</Original>
+				<English>Apply a current hardpoint setting.</English>
+				<Korean>현재 설정한 하드포인트 설정으로 적용합니다.</Korean>
+			</Key>		
+			<Key ID="str_FIR_AMS_TOOLTIP_PRESET_ADD">
+				<Original>Add or update preset</Original>
+				<English>Add or update preset</English>
+				<Korean>프리셋을 추가하거나 갱신합니다.</Korean>
+			</Key>			
+			<Key ID="str_FIR_AMS_TOOLTIP_PRESET_REMOVE">
+				<Original>Remove preset</Original>
+				<English>Remove preset</English>
+				<Korean>프리셋을 삭제합니다.</Korean>
+			</Key>			
+			<Key ID="str_FIR_AMS_TOOLTIP_MAINTENANCE">
+				<Original>Repair and refuel.</Original>
+				<English>Repair and refuel.</English>
+				<Korean>수리 및 급유</Korean>
+			</Key>				
+			<Key ID="str_FIR_AMS_TEXT_RESET">
+				<Original>Reset</Original>
+				<English>Reset</English>
+				<Korean>초기화</Korean>
+			</Key>		
+			<Key ID="str_FIR_AMS_TEXT_APPLY">
+				<Original>Apply</Original>
+				<English>Apply</English>
+				<Korean>적용</Korean>
+			</Key>			
+			<Key ID="str_FIR_AMS_TEXT_HARDPOINT">
+				<Original>Hardpoint</Original>
+				<English>Hardpoint</English>
+				<Korean>하드포인트</Korean>
+			</Key>	
+			<Key ID="str_FIR_AMS_TEXT_WEAPONS">
+				<Original>Weapons</Original>
+				<English>Weapons</English>
+				<Korean>무장 목록</Korean>
+			</Key>	
+			<Key ID="str_FIR_AMS_TEXT_GUNNER">
+				<Original>Gunner</Original>
+				<English>Gunner</English>
+				<Korean>사수</Korean>
+			</Key>	
+			<Key ID="str_FIR_AMS_TEXT_CUSTOM">
+				<Original>Customize</Original>
+				<English>Customize</English>
+				<Korean>커스터마이즈</Korean>
+			</Key>		
+			<Key ID="str_FIR_AMS_TEXT_PRESET">
+				<Original>Preset Manager</Original>
+				<English>Preset Manager</English>
+				<Korean>프리셋 매니저</Korean>
+			</Key>		
+			<Key ID="str_FIR_AMS_TEXT_PRESET_ADD">
+				<Original>Add</Original>
+				<English>Add</English>
+				<Korean>추가</Korean>
+			</Key>	
+			<Key ID="str_FIR_AMS_TEXT_PRESET_REMOVE">
+				<Original>Remove</Original>
+				<English>Remove</English>
+				<Korean>삭제</Korean>
+			</Key>		
+			<Key ID="str_FIR_AMS_TEXT_MAINTENANCE">
+				<Original>Maintenance</Original>
+				<English>Maintenance</English>
+				<Korean>정비</Korean>
 			</Key>						
 		</Container>
 	</Package>	
