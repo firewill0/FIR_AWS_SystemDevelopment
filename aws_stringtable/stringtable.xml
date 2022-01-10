@@ -148,166 +148,201 @@
 				<Original>AMS deactivated via AWS_AMS_Disable command.</Original>
 				<English>AMS deactivated via AWS_AMS_Disable command.</English>
 				<Korean>AMS가 AWS_AMS_Disable 명령어에 의해 비활성화되었습니다.</Korean>
+				<German> AMS Deaktiviert von AWS_AMS_Disable befehl. </German>
 			</Key>	
 			<Key ID="str_FIR_AMS_DISABLED_NO_OBJECT">
 				<Original>No AMS supported object found within 160m.</Original>
 				<English>No AMS supported object found within 160m.</English>
 				<Korean>AMS를 사용가능케하는 지원 오브젝트가 160m이내에 찾을 수 없습니다.</Korean>
+				<German>Kein AMS-unterstütztes objekt innerhalb von 160m gefunden.</German>
 			</Key>
 			<Key ID="str_FIR_AMS_DISABLED_NO_AIRCRAFT">
 				<Original>You Must get in the right aircraft!</Original>
 				<English>You Must get in the right aircraft!</English>
 				<Korean>AMS를 지원하는 항공기에 탑승하셔야 합니다!.</Korean>
+				<German>Sie müssen in das richtige flugzeug einsteigen!</German>
 			</Key>		
 			<Key ID="str_FIR_AMS_CUSTOMPRESET_INSTALLED">
 				<Original>Custom preset data installed.(you can see this message only one time)</Original>
 				<English>Custom preset data installed.(you can see this message only one time)</English>
 				<Korean>커스텀 프리셋 데이터가 설치되었습니다.(최초 설치시에만 이 메시지가 보입니다.)</Korean>
+				<German>Benutzerdefinierte voreingestellte Daten installiert.(Sie können diese Nachricht nur einmal sehen)</German>
 			</Key>		
 			<Key ID="str_FIR_AMS_WARN_WORKNIG">
 				<Original>AMS is already working.</Original>
 				<English>AMS is already working.</English>
 				<Korean>AMS가 이미 작동중입니다.</Korean>
+				<German>AMS funktioniert schon.</German>
 			</Key>	
 			<Key ID="str_FIR_AMS_START">
 				<Original>Starting the AMS.</Original>
 				<English>Starting the AMS.</English>
 				<Korean>AMS 실행 개시.</Korean>
+				<German>Starten des AMS.</German>
 			</Key>			
 			<Key ID="str_FIR_ADES_Setting">
 				<Original>Open the aircraft customize menu.</Original>
 				<English>Open the aircraft customize menu.</English>
 				<Korean>항공기 커스터마이즈 메뉴를 엽니다.</Korean>
+				<German>Öffnen sie das Menü zum Anpassen des Flugzeug.</German>
 			</Key>		
 			<Key ID="str_FIR_PRESET_SELECT">
 				<Original>Select preset</Original>
 				<English>Select preset</English>
 				<Korean>프리셋 선택</Korean>
+				<German>Voreinstellung auswählen</German>
 			</Key>				
 			<Key ID="str_FIR_REPAIR_BTN">
 				<Original>Repair this aircraft.</Original>
 				<English>Repair this aircraft.</English>
 				<Korean>이 항공기를 수리합니다.</Korean>
+				<German>Repariere dieses Flugzeug.</German>
 			</Key>		
 			<Key ID="str_FIR_REFUEL_BTN">
 				<Original>Refuel this aircraft.</Original>
 				<English>Refuel this aircraft.</English>
 				<Korean>이 항공기의 연료를 보급합니다.</Korean>
+				<German>Tanken Sie dieses Flugzeug auf.</German>
 			</Key>		
 			<Key ID="str_FIR_APPLY_BTN">
 				<Original>Apply the current setting.</Original>
 				<English>Apply the current setting.</English>
 				<Korean>현재 설정을 적용합니다.</Korean>
+				<German>Übernehmen Sie die aktuelle Einstellung.</German>
+
 			</Key>				
 			<Key ID="str_FIR_CLOSE_BTN">
 				<Original>Close the AMS.</Original>
 				<English>Close the AMS.</English>
 				<Korean>AMS를 닫습니다.</Korean>
+				<German>Schließen Sie das AMS.</German>
 			</Key>				
 			<Key ID="str_FIR_PRESET_ADD_BTN">
 				<Original>Add a new preset.</Original>
 				<English>Add a new preset.</English>
 				<Korean>새 프리셋을 추가합니다.</Korean>
+				<German>Fügen Sie eine neue Voreinstellung hinzu.</German>
+
 			</Key>		
 			<Key ID="str_FIR_PRESET_UPDATE_BTN">
 				<Original>Update the selected preset.</Original>
 				<English>Update the selected preset.</English>
 				<Korean>선택한 프리셋을 갱신합니다.</Korean>
+				<German>Aktualisieren Sie die ausgewählte Voreinstellung.</German>
 			</Key>			
 			<Key ID="str_FIR_PRESET_REMOVE_BTN">
 				<Original>Remove the selected preset.</Original>
 				<English>Remove the selected preset.</English>
 				<Korean>선택한 프리셋을 삭제합니다.</Korean>
+				<German>Entfernen Sie die ausgewählte Voreinstellung</German>
 			</Key>			
 			<Key ID="str_FIR_PRESET_APPLY_BTN">
 				<Original>Apply the selected preset.</Original>
 				<English>Apply the selected preset.</English>
 				<Korean>선택한 프리셋을 적용합니다.</Korean>
+				<German>Wenden Sie die ausgewählte Voreinstellung an.</German>
 			</Key>					
 			<Key ID="str_FIR_WSO_DESC">
 				<Original>Each checkbox determines which weapons the WSO can use.</Original>
 				<English>Each checkbox determines which weapons the WSO can use.</English>
 				<Korean>각 체크박스는 WSO가 사용할 수 있는 무기를 결정합니다.</Korean>
+				<German>Jedes Kontrollkästchen bestimmt, welche Waffen das "WSO" verwenden kann.</German>
 			</Key>
 			<Key ID="str_FIR_EWO_DESC">
 				<Original>Each checkbox determines which weapons the EWO can use.</Original>
 				<English>Each checkbox determines which weapons the EWO can use.</English>
 				<Korean>각 체크박스는 EWO가 사용할 수 있는 무기를 결정합니다.</Korean>
+				<German>Jedes Kontrollkästchen bestimmt, welche Waffen der "EWO" verwenden kann.</German>
 			</Key>		
 			<Key ID="str_FIR_AMS_TOOLTIP_RESET">
 				<Original>Reset the hardpoint setting.</Original>
 				<English>Reset the hardpoint setting.</English>
 				<Korean>하드포인트 설정값을 초기화합니다.</Korean>
+				<German>Setzen Sie die Hardpoint-Einstellung zurück.</German>
 			</Key>		
 			<Key ID="str_FIR_AMS_TOOLTIP_APPLY">
 				<Original>Apply a current hardpoint setting.</Original>
 				<English>Apply a current hardpoint setting.</English>
 				<Korean>현재 설정한 하드포인트 설정으로 적용합니다.</Korean>
+				<German>Wenden Sie eine aktuelle Hardpoint-Einstellung an.</German>
 			</Key>		
 			<Key ID="str_FIR_AMS_TOOLTIP_PRESET_ADD">
 				<Original>Add or update preset</Original>
 				<English>Add or update preset</English>
 				<Korean>프리셋을 추가하거나 갱신합니다.</Korean>
+				<German>Voreinstellung hinzufügen oder aktualisieren</German>
 			</Key>			
 			<Key ID="str_FIR_AMS_TOOLTIP_PRESET_REMOVE">
 				<Original>Remove preset</Original>
 				<English>Remove preset</English>
 				<Korean>프리셋을 삭제합니다.</Korean>
+				<German>Voreinstellung entfernen</German>
 			</Key>			
 			<Key ID="str_FIR_AMS_TOOLTIP_MAINTENANCE">
 				<Original>Repair and refuel.</Original>
 				<English>Repair and refuel.</English>
 				<Korean>수리 및 급유</Korean>
+				<German>Reparieren und tanken.</German>
 			</Key>				
 			<Key ID="str_FIR_AMS_TEXT_RESET">
 				<Original>Reset</Original>
 				<English>Reset</English>
 				<Korean>초기화</Korean>
+				<German>Zurücksetzen</German>
 			</Key>		
 			<Key ID="str_FIR_AMS_TEXT_APPLY">
 				<Original>Apply</Original>
 				<English>Apply</English>
 				<Korean>적용</Korean>
+				<German>Sich bewerben</German>
 			</Key>			
 			<Key ID="str_FIR_AMS_TEXT_HARDPOINT">
 				<Original>Hardpoint</Original>
 				<English>Hardpoint</English>
 				<Korean>하드포인트</Korean>
+				<German>"Hardpoint"</German>
 			</Key>	
 			<Key ID="str_FIR_AMS_TEXT_WEAPONS">
 				<Original>Weapons</Original>
 				<English>Weapons</English>
 				<Korean>무장 목록</Korean>
+				<German>Waffen</German>
 			</Key>	
 			<Key ID="str_FIR_AMS_TEXT_GUNNER">
 				<Original>Gunner</Original>
 				<English>Gunner</English>
 				<Korean>사수</Korean>
+				<German>Kanonier</German>
 			</Key>	
 			<Key ID="str_FIR_AMS_TEXT_CUSTOM">
 				<Original>Customize</Original>
 				<English>Customize</English>
 				<Korean>커스터마이즈</Korean>
+				<German>Anpassen</German>
 			</Key>		
 			<Key ID="str_FIR_AMS_TEXT_PRESET">
 				<Original>Preset Manager</Original>
 				<English>Preset Manager</English>
 				<Korean>프리셋 매니저</Korean>
+				<German>"Preset-Manager"</German>
 			</Key>		
 			<Key ID="str_FIR_AMS_TEXT_PRESET_ADD">
 				<Original>Add</Original>
 				<English>Add</English>
 				<Korean>추가</Korean>
+				<German>Hinzufügen</German>
 			</Key>	
 			<Key ID="str_FIR_AMS_TEXT_PRESET_REMOVE">
 				<Original>Remove</Original>
 				<English>Remove</English>
 				<Korean>삭제</Korean>
+				<German>Entfernen</German>
 			</Key>		
 			<Key ID="str_FIR_AMS_TEXT_MAINTENANCE">
 				<Original>Maintenance</Original>
 				<English>Maintenance</English>
 				<Korean>정비</Korean>
+				<German>Wartung</German>
 			</Key>						
 		</Container>
 	</Package>	
