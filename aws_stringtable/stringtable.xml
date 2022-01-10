@@ -144,7 +144,7 @@
 	</Package>
 	<Package name="AWS_GUI">
 		<Container name="AMS">
-			<Key ID="str_FIR_AMS_DISABLED_WARN">
+		<Key ID="str_FIR_AMS_DISABLED_WARN">
 				<Original>AMS deactivated via AWS_AMS_Disable command.</Original>
 				<English>AMS deactivated via AWS_AMS_Disable command.</English>
 				<Korean>AMS가 AWS_AMS_Disable 명령어에 의해 비활성화되었습니다.</Korean>
@@ -209,7 +209,6 @@
 				<English>Apply the current setting.</English>
 				<Korean>현재 설정을 적용합니다.</Korean>
 				<German>Übernehmen Sie die aktuelle Einstellung.</German>
-
 			</Key>				
 			<Key ID="str_FIR_CLOSE_BTN">
 				<Original>Close the AMS.</Original>
@@ -222,7 +221,6 @@
 				<English>Add a new preset.</English>
 				<Korean>새 프리셋을 추가합니다.</Korean>
 				<German>Fügen Sie eine neue Voreinstellung hinzu.</German>
-
 			</Key>		
 			<Key ID="str_FIR_PRESET_UPDATE_BTN">
 				<Original>Update the selected preset.</Original>
@@ -343,7 +341,103 @@
 				<English>Maintenance</English>
 				<Korean>정비</Korean>
 				<German>Wartung</German>
-			</Key>						
+			</Key>	
+			<Key ID="str_FIR_AMS_APPLY_WARN_ENGINEON">
+				<Original>AMS canceled : engine is on.</Original>
+				<English>AMS canceled : engine is on.</English>
+				<Korean>AMS 작동 중지됨 : 엔진이 가동중입니다.</Korean>
+				<German>AMS canceled : engine is on.(todo)</German>
+			</Key>	
+			<Key ID="str_FIR_AMS_APPLY_WARN_NOCUSTOMVALUE">
+				<Original>custom value not found. standard inverval time : 0.5s</Original>
+				<English>custom value not found. standard inverval time : 0.5s</English>
+				<Korean>커스텀 값을 찾을 수 없음. 표준 간격 : 0.5초</Korean>
+				<German>custom value not found. standard inverval time : 0.5s(todo)</German>
+			</Key>	
+			<Key ID="str_FIR_AMS_APPLY_WARN_CUSTOMVALUE">
+				<Original>Weight-based Loading time enabled.</Original>
+				<English>Weight-based Loading time enabled.</English>
+				<Korean>무게 기반 장전 시간 활성화됨.</Korean>
+				<German>Weight-based Loading time enabled.(todo)</German>
+			</Key>	
+			<Key ID="str_FIR_AMS_APPLY_LOADING">
+				<Original>%1 / load time : %2 s</Original>
+				<English>%1 / load time : %2 s</English>
+				<Korean>%1 / 장전 시간 : %2 초</Korean>
+				<German>%1 / load time : %2 s(todo)</German>
+			</Key>		
+			<Key ID="str_FIR_AMS_WPN_LOADING_COMPLETED">
+				<Original>Weapons loading completed</Original>
+				<English>Weapons loading completed</English>
+				<Korean>무기 장전 완료됨</Korean>
+				<German>Weapons loading completed(todo)</German>
+			</Key>		
+			<Key ID="str_FIR_AMS_WARN_NOAMMO">
+				<Original>Not enough ammunition!</Original>
+				<English>Not enough ammunition!</English>
+				<Korean>선택한 무기의 탄약이 부족합니다!</Korean>
+				<German>Not enough ammunition!(todo)</German>
+			</Key>	
+			<Key ID="str_FIR_AMS_REPAIRING">
+				<Original>Repairing..</Original>
+				<English>Repairing..</English>
+				<Korean>수리중..</Korean>
+				<German>Repairing..(todo)</German>
+			</Key>	
+			<Key ID="str_FIR_AMS_REFUELING">
+				<Original>Refueling..</Original>
+				<English>Refueling..</English>
+				<Korean>급유중..</Korean>
+				<German>Refueling..(todo)</German>
+			</Key>	
+			<Key ID="str_FIR_AMS_MAINTENANCE_DONE">
+				<Original>Repair and refuel completed.</Original>
+				<English>Repair and refuel completed.</English>
+				<Korean>수리 및 급유 완료되었습니다.</Korean>
+				<German>Repair and refuel completed.(todo)</German>
+			</Key>	
+			<Key ID="str_FIR_AMS_PRESET_MESSAGE_UPDATED">
+				<Original>Preset has been updated</Original>
+				<English>Preset has been updated</English>
+				<Korean>프리셋이 갱신되었습니다.</Korean>
+				<German>Preset has been updated(todo)</German>
+			</Key>
+			<Key ID="str_FIR_AMS_PRESET_MESSAGE_ADDED">
+				<Original>New preset has been added</Original>
+				<English>New preset has been added</English>
+				<Korean>새 프리셋이 추가되었습니다.</Korean>
+				<German>New preset has been added(todo)</German>
+			</Key>	
+			<Key ID="str_FIR_AMS_PRESET_MESSAGE_ERROR">
+				<Original>This preset name is already in aircraft preset in the config file. Please try again with different name.</Original>
+				<English>This preset name is already in aircraft preset in the config file. Please try again with different name.</English>
+				<Korean>이 프리셋 이름은 이미 컨피그 파일 내의 항공기 프리셋에 존재합니다. 다른 이름으로 다시 시도해 주십시오.</Korean>
+				<German>This preset name is already in aircraft preset in the config file. Please try again with different name.(todo)</German>
+			</Key>	
+			<Key ID="str_FIR_AMS_PRESET_MESSAGE_NAME">
+				<Original>Preset : %1</Original>
+				<English>Preset : %1</English>
+				<Korean>프리셋 : %1</Korean>
+				<German>Preset : %1 (todo)</German>
+			</Key>	
+			<Key ID="str_FIR_AMS_PRESET_MESSAGE_REMOVE">
+				<Original>Custom preset %1 is now terminated.</Original>
+				<English>Custom preset %1 is now terminated.</English>
+				<Korean>커스텀 프리셋 %1 은(는) 제거되었습니다.</Korean>
+				<German>Custom preset %1 is now terminated (todo)</German>
+			</Key>	
+			<Key ID="str_FIR_AMS_PRESET_MESSAGE_REMOVE_ERROR">
+				<Original>This isn't the preset you're looking for.</Original>
+				<English>This isn't the preset you're looking for.</English>
+				<Korean>이 프리셋은 당신이 찾고 있던게 아니오.</Korean>
+				<German>This isn't the preset you're looking for.(todo)</German>
+			</Key>		
+			<Key ID="str_FIR_AMS_RESET_MESSAGE">
+				<Original>Reset completed.</Original>
+				<English>Reset completed.</English>
+				<Korean>초기화 완료됨.</Korean>
+				<German>Reset completed. (todo)</German>
+			</Key>							
 		</Container>
 	</Package>	
 	<Package name="ITGT_GUI">
