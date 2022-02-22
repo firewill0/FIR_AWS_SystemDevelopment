@@ -1,5 +1,6 @@
 ﻿// Stringtable for FIR AWS
 //contributors :
+
 <?xml version="1.0" encoding="utf-8" ?>
 <Project name="FIR_AWS">
 	<Package name="WeaponInfo">
@@ -144,11 +145,11 @@
 	</Package>
 	<Package name="AWS_GUI">
 		<Container name="AMS">
-		<Key ID="str_FIR_AMS_DISABLED_WARN">
+			<Key ID="str_FIR_AMS_DISABLED_WARN">
 				<Original>AMS deactivated via AWS_AMS_Disable command.</Original>
 				<English>AMS deactivated via AWS_AMS_Disable command.</English>
 				<Korean>AMS가 AWS_AMS_Disable 명령어에 의해 비활성화되었습니다.</Korean>
-				<German> AMS Deaktiviert von AWS_AMS_Disable befehl. </German>
+				<German>AMS Deaktiviert von AWS_AMS_Disable befehl. </German>
 			</Key>	
 			<Key ID="str_FIR_AMS_DISABLED_NO_OBJECT">
 				<Original>No AMS supported object found within 160m.</Original>
@@ -244,13 +245,13 @@
 				<Original>Each checkbox determines which weapons the WSO can use.</Original>
 				<English>Each checkbox determines which weapons the WSO can use.</English>
 				<Korean>각 체크박스는 WSO가 사용할 수 있는 무기를 결정합니다.</Korean>
-				<German>Jedes Kontrollkästchen bestimmt, welche Waffen das "WSO" verwenden kann.</German>
+				<German>Jedes Kontrollkästchen bestimmt, welche Waffen das WSO verwenden kann.</German>
 			</Key>
 			<Key ID="str_FIR_EWO_DESC">
 				<Original>Each checkbox determines which weapons the EWO can use.</Original>
 				<English>Each checkbox determines which weapons the EWO can use.</English>
 				<Korean>각 체크박스는 EWO가 사용할 수 있는 무기를 결정합니다.</Korean>
-				<German>Jedes Kontrollkästchen bestimmt, welche Waffen der "EWO" verwenden kann.</German>
+				<German>Jedes Kontrollkästchen bestimmt, welche Waffen der EWO verwenden kann.</German>
 			</Key>		
 			<Key ID="str_FIR_AMS_TOOLTIP_RESET">
 				<Original>Reset the hardpoint setting.</Original>
@@ -298,7 +299,7 @@
 				<Original>Hardpoint</Original>
 				<English>Hardpoint</English>
 				<Korean>하드포인트</Korean>
-				<German>"Hardpoint"</German>
+				<German>Hardpoint</German>
 			</Key>	
 			<Key ID="str_FIR_AMS_TEXT_WEAPONS">
 				<Original>Weapons</Original>
@@ -322,7 +323,7 @@
 				<Original>Preset Manager</Original>
 				<English>Preset Manager</English>
 				<Korean>프리셋 매니저</Korean>
-				<German>"Preset-Manager"</German>
+				<German>Preset-Manager</German>
 			</Key>		
 			<Key ID="str_FIR_AMS_TEXT_PRESET_ADD">
 				<Original>Add</Original>
@@ -437,9 +438,9 @@
 				<English>Reset completed.</English>
 				<Korean>초기화 완료됨.</Korean>
 				<German>Reset completed. (todo)</German>
-			</Key>							
+			</Key>			
 		</Container>
-	</Package>	
+	</Package>		
 	<Package name="ITGT_GUI">
 		<Container name="ITGT">
 			<Key ID="str_FIR_ITGT_GUI_HINT_DGN">
